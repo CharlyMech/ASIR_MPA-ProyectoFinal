@@ -1,0 +1,52 @@
+body {
+	background-color: darkgray;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding:7.5vmax
+}
+
+main {
+	display:block;
+	background-color: white;
+	border-radius: 5px;
+	margin:auto;
+	width:75%;
+	height:auto;
+	padding:3%;
+
+	text-align:center;
+}
+
+main h1 {
+	font-size:7vh;
+	color:red;
+	text-decoration: underline;
+}
+
+main p {
+	font-size:3vh;
+	margin-bottom:5%;
+}
+
+main a {
+	font-size:2vh;
+	color:black;
+	background-color:red;
+	text-decoration: none;
+	padding: 1vw 2vh;
+
+	border: 2px solid darkred;
+	border-radius: 10px;
+
+	cursor: pointer;
+	outline: none;
+}
+
+main a:hover {
+	background-color: #c50e0e;
+}
+
+main a:active {
+	background-color: #c50e0e;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
